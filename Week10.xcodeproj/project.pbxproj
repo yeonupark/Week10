@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48B2B52F2ABA764100AF8C36 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B52E2ABA764100AF8C36 /* Router.swift */; };
+		48B2B5312ABA9AA100AF8C36 /* UnsplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B5302ABA9AA100AF8C36 /* UnsplashViewModel.swift */; };
 		48FD44EE2AB9293800F5CBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44ED2AB9293800F5CBA8 /* AppDelegate.swift */; };
 		48FD44F02AB9293800F5CBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44EF2AB9293800F5CBA8 /* SceneDelegate.swift */; };
 		48FD44F22AB9293800F5CBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44F12AB9293800F5CBA8 /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48B2B52E2ABA764100AF8C36 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		48B2B5302ABA9AA100AF8C36 /* UnsplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashViewModel.swift; sourceTree = "<group>"; };
 		48FD44EA2AB9293800F5CBA8 /* Week10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FD44ED2AB9293800F5CBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FD44EF2AB9293800F5CBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				48FD44F82AB9293D00F5CBA8 /* LaunchScreen.storyboard */,
 				48FD44FB2AB9293D00F5CBA8 /* Info.plist */,
 				48FD450A2AB92A1200F5CBA8 /* .gitignore */,
+				48B2B5302ABA9AA100AF8C36 /* UnsplashViewModel.swift */,
 			);
 			path = Week10;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 				48FD450F2AB93CD400F5CBA8 /* NetworkBasic.swift */,
 				48FD45112AB9649B00F5CBA8 /* SeSACAPI.swift */,
 				48FD45132AB9744500F5CBA8 /* Network.swift */,
+				48B2B52E2ABA764100AF8C36 /* Router.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -195,6 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B2B5312ABA9AA100AF8C36 /* UnsplashViewModel.swift in Sources */,
+				48B2B52F2ABA764100AF8C36 /* Router.swift in Sources */,
 				48FD451D2AB9D06A00F5CBA8 /* BeerViewController.swift in Sources */,
 				48FD45172AB9A31300F5CBA8 /* BeerAPI.swift in Sources */,
 				48FD44F22AB9293800F5CBA8 /* ViewController.swift in Sources */,

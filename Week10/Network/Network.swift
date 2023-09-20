@@ -8,12 +8,29 @@
 import Foundation
 import Alamofire
 
+// 실제로 통신을 담당하는 곳
 // 세개 합쳐서 하나로 통일
 class Network {
     
     static let shared = Network()
     
     private init() { }
+    
+    func requestConvertible<T: Decodable>(type: T.Type, api: Router, completion: @escaping (Result<T, SeSACError>) -> Void) {
+        
+        AF.request(api).responseDecodable(of: T.self) { response in
+                switch response.result {
+                case .success(let data) :
+                    completion(.success(data))
+                case .failure(_) :
+                    //guard let statusCode = response.response?.statusCode else { return }
+                    let statusCode = response.response?.statusCode ?? 500
+                    guard let error = SeSACError(rawValue: statusCode) else { return }
+                    
+                    completion(.failure(error))
+                }
+            }
+    }
     
     func request<T: Decodable>(type: T.Type, api: SeSACAPI, completion: @escaping (Result<T, SeSACError>) -> Void) {
         

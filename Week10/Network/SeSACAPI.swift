@@ -8,7 +8,10 @@
 import Foundation
 import Alamofire
 
+// 서버 통신에 필요한 구조를 모아두는 곳
+
 enum SeSACAPI {
+    
     static let key = "o4PRCCqQGMYVIxuEC-seOOEn3GWCzpLAOGvD3iuZzY0"
     
     case search(query: String)
