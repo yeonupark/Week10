@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		48B2B52F2ABA764100AF8C36 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B52E2ABA764100AF8C36 /* Router.swift */; };
 		48B2B5312ABA9AA100AF8C36 /* UnsplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B5302ABA9AA100AF8C36 /* UnsplashViewModel.swift */; };
+		48B2B5332ABBCB4900AF8C36 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B5322ABBCB4900AF8C36 /* SearchViewController.swift */; };
+		48B2B5352ABBE10D00AF8C36 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B5342ABBE10D00AF8C36 /* SearchCollectionViewCell.swift */; };
 		48FD44EE2AB9293800F5CBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44ED2AB9293800F5CBA8 /* AppDelegate.swift */; };
 		48FD44F02AB9293800F5CBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44EF2AB9293800F5CBA8 /* SceneDelegate.swift */; };
 		48FD44F22AB9293800F5CBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD44F12AB9293800F5CBA8 /* ViewController.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		48B2B52E2ABA764100AF8C36 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		48B2B5302ABA9AA100AF8C36 /* UnsplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashViewModel.swift; sourceTree = "<group>"; };
+		48B2B5322ABBCB4900AF8C36 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		48B2B5342ABBE10D00AF8C36 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
 		48FD44EA2AB9293800F5CBA8 /* Week10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FD44ED2AB9293800F5CBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FD44EF2AB9293800F5CBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				48FD44FB2AB9293D00F5CBA8 /* Info.plist */,
 				48FD450A2AB92A1200F5CBA8 /* .gitignore */,
 				48B2B5302ABA9AA100AF8C36 /* UnsplashViewModel.swift */,
+				48B2B5322ABBCB4900AF8C36 /* SearchViewController.swift */,
+				48B2B5342ABBE10D00AF8C36 /* SearchCollectionViewCell.swift */,
 			);
 			path = Week10;
 			sourceTree = "<group>";
@@ -209,9 +215,11 @@
 				48FD44EE2AB9293800F5CBA8 /* AppDelegate.swift in Sources */,
 				48FD45192AB9A48700F5CBA8 /* Beer.swift in Sources */,
 				48FD44F02AB9293800F5CBA8 /* SceneDelegate.swift in Sources */,
+				48B2B5332ABBCB4900AF8C36 /* SearchViewController.swift in Sources */,
 				48FD45122AB9649B00F5CBA8 /* SeSACAPI.swift in Sources */,
 				48FD45142AB9744500F5CBA8 /* Network.swift in Sources */,
 				48FD45102AB93CD400F5CBA8 /* NetworkBasic.swift in Sources */,
+				48B2B5352ABBE10D00AF8C36 /* SearchCollectionViewCell.swift in Sources */,
 				48FD451B2AB9CC4C00F5CBA8 /* BeerNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
